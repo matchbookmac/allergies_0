@@ -1,0 +1,6 @@
+<h1>Based on a score of <%= @score %>, this person is allergic to:</h1>
+<ul>
+  <% @allergens.each do |elem| %>
+  <li><%= elem %></li>
+  <% end %>
+</ul>
